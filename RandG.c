@@ -8,5 +8,6 @@ int RandG()
 int *ptr,rand;
 ptr=(int*)malloc(0);
 rand=(int)ptr;
+free(rand);
 return rand;
 }
